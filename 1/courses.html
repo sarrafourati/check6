@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Courses</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href=res/image.png>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand">GoMyCode</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">HOME </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">CONTACT</a>
+          </li>
+          
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link " href="courses.html">COURSES</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+      <!-- <ul id="ec" class="nav navbar-nav">
+                <li class="color"><a href="index.html">home</a></li>
+                <li class="color"><a href="contact.html">contact</a></li>
+                <li class="color"><a href="courses.html">courses</a></li>
+            </ul>--> 
+      <center>
+        <br>
+          <h1 class="color" class="courses">COURSES</h1><br>
+          <br>
+          <br>
+          <br>
+          <div id="ex1" class="modal">
+              <p>This is GoMyCode Track<br>
+                Each track has its own goal<br>
+                By adopting this track, you chose your own goal
+              </p>
+              <a href="#" rel="modal:close">Close</a>
+            </div>
+          <div class="D1">
+          <div id="nb" class="marg" >
+              <a href="#ex1" rel="modal:open">
+            <button ID="btn1" type="button">View more</button>
+                </a>
+          </div>
+          <div id="gt" class="marg">
+              <a href="#ex1" rel="modal:open">
+              <button ID="nn" type="button">View more</button>
+              </a>
+          </div>
+          <div id="bh" class="marg">
+              <a href="#ex1" rel="modal:open">
+            <button id="mo" type="button" >View more</button>
+            </a>
+          </div>
+        </div>
+        <div class="D2">
+          <div id="ou" class="marg">
+              <a href="#ex1" rel="modal:open">
+              <button id="oi" type="button" >View more</button>
+              </a>
+            </div>
+          <div id="on" class="marg">
+              <a href="#ex1" rel="modal:open">
+              <button id="no" type="button">View more</button>
+              </a>
+           </div>
+            <div id="ot" class="marg">
+                <a href="#ex1" rel="modal:open">
+            <button id="to">View more</button>
+            </a>
+                </div>
+              </div>
+              <div class="D3">
+                <div id="o2" class="marg">
+                    <a href="#ex1" rel="modal:open">
+                    <button id="o1" type="button">View more</button>
+                    </a>
+                  </div>
+                  <div id="o3" class="marg">
+                      <a href="#ex1" rel="modal:open">
+                      <button id="o4" type="button">View more</button>
+                      </a>
+                    </div>
+                    <div id="o5" class="marg">
+                        <a href="#ex1" rel="modal:open">
+                        <button id="o6" type="button">View more</button>
+                        </a>
+                      </div>
+                    </div>
+       
+          <form>
+          <h2 class="color">Feedback</h2><br>
+          <button onclick="bold()">B</button>
+          <button onclick="italic()">I</button>
+          <button onclick="underline()">underline</button>
+          <select onchange="px()" id="size">
+              <option >20px</option>
+              <option >30px</option>
+              <option >40px</option>
+              </select>
+              <select onchange="pol()" id="police">
+              <option>Arial</option>
+              <option>Times New Roman</option>
+              <option>Geneva</option>
+            </select><br>
+            <button id="cl" type="button">CLICK ME</button>
+            <br>
+            <br>
+              <textarea id="text" cols="30" rows="5"></textarea>
+        </form>
+      </center>
+      
+</body>
+<script src="js/main.js"></script>
+</html>

@@ -1,0 +1,181 @@
+
+#T1{
+    height: 100%;
+    width: 100%;
+}
+#T2{
+    height: 100%;
+    width: 100%;
+}
+#T3{
+    height: 30%;
+    width: 100%;
+}
+#T4{
+    height: 600px;
+}
+li{
+    display: inline-block;
+}
+li{
+    margin-left: 50px;
+}
+ul{
+    margin-left: 450px;
+}
+body{
+    background: linear-gradient(500deg, #4B0000, #800000, #FF0000, #BF0000, #E60000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100%;
+    box-sizing: border-box;
+}
+#text{
+    width:350px;
+    max-width:350px;
+    height:200px;
+    max-height:200px;
+}
+#ec{
+    font-size: 50px;
+    display: inline-block;
+    color: white;
+    margin-left: 340px;
+
+
+}
+.D1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 30px;
+    
+}
+.marg{
+    margin:-50px;
+    background-repeat: no-repeat;
+    height: 250px;
+    width:250px;
+    PADDING-TOP: 125px;
+    position:relative;
+    margin:20px;
+}
+.D2{
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+.D3{
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+#nb{
+    background-image: url(../res/C1.png);
+
+}
+#btn1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    display: none;
+}
+#gt{
+    background-image: url(../res/C2.png);
+
+}
+#nn{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    display: none;
+}
+#bh{
+    background-image: url(../res/C3.png);
+
+}
+#mo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    display: none;
+}
+#ou{
+    background-image: url(../res/C4.png);
+
+}
+#oi{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    display: none;
+
+}
+#on{
+    background-image: url(../res/C5.png);
+    
+}
+#no{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    display: none;
+}
+#ot{
+    background-image: url(../res/C6.png);
+
+}
+#to{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    display: none;
+}
+#o2{
+    background-image: url(../res/C7.png);
+
+}
+#o1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    display: none;
+}
+#o3{
+    background-image: url(../res/C8.png);
+
+}
+#o4{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    display: none;
+}
+#o5{
+    background-image: url(../res/C9.png);
+
+}
+#o6{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    display: none;
+}
+.color{
+    color: white;
+}
+.courses{
+    font-size: 70px
+}
+.our{
+    color: black;
+}
+.carousel-inner{
+    height: 600px;
+    max-height: 600px;
+}
+#pot{
+    font-size: 30px;
+}
